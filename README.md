@@ -188,7 +188,10 @@ For single page web applications like Ember, it's common to back the application
 {
   "proxies": {
     "/api/": {
-      "origin": "https://hone-ember-todo-rails.herokuapp.com/"
+      "origin": "https://hone-ember-todo-rails.herokuapp.com/",
+      "headers" {
+        "Accepts": "application/json"
+      }
     }
   }
 }
@@ -201,7 +204,10 @@ It's common to want to be able to test the frontend against various backends. Th
 {
   "proxies": {
     "/api/": {
-      "origin": "https://${API_APP_NAME}.herokuapp.com/"
+      "origin": "https://${API_APP_NAME}.herokuapp.com/",
+      "headers": {
+        "Authorization": "API-key ${API_KEY}"
+      }
     }
   }
 }
