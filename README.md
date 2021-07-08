@@ -1,5 +1,5 @@
 # heroku-buildpack-static+proxy-request-headers
-**NOTE**: This buildpack a fork of [Heroku-buildpack-static](https://github.com/heroku/heroku-buildpack-static.git)
+**NOTE**: This buildpack a fork of [Heroku-buildpack-static](https://github.com/heroku/heroku-buildpack-static.git) with support for proxy request headers.
 
 This is a buildpack for handling static sites and single page web apps.
 
