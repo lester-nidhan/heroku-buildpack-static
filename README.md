@@ -1,5 +1,5 @@
-# heroku-buildpack-static
-**NOTE**: This buildpack is in an experimental OSS project.
+# heroku-buildpack-static+proxy-request-headers
+**NOTE**: This buildpack a fork of [Heroku-buildpack-static](https://github.com/heroku/heroku-buildpack-static.git)
 
 This is a buildpack for handling static sites and single page web apps.
 
